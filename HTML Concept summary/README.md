@@ -11,3 +11,10 @@
 <input type='text' name='userId' placeholder='아이디를 입력하세요.'/>
 ```
 <img width="20%" src="https://user-images.githubusercontent.com/83212040/125707502-90b93947-fc38-489a-b912-b1b90797f49e.png"/>
+
+## required
+폼 데이터(form data)가 서버로 제출되기 전 반드시 채워져 있어야 하는 입력 필드를 명시
+```
+이름 : <input type="text" name="st_name" required><br>
+```
+<img width="20%" src="https://user-images.githubusercontent.com/83212040/125708546-2a470d3a-5e6f-4611-9295-b2fde657035c.png"/>
