@@ -23,4 +23,49 @@ window.onload = function(){
 ${document}.ready(function(){
 
 });
-``` 
+```
+
+
+## 배열 요소 추가, 삭제
+
+**배열 요소 추가**
+```
+var arr = ['a', 'b', 'c'];
+
+// arr = ['a', 'b', 'c', 'd']
+arr.push('d'); // 배열의 끝에 요소를 추가
+```
+
+```
+var arr = ['a', 'b', 'c'];
+
+// arr = ['d', 'a', 'b', 'c']
+arr.unshift('d'); // 배열의 앞쪽에 요소를 추가
+```
+
+```
+var arr = ['a', 'b', 'c'];
+
+// arr = ['a', 'b', 'd', 'c']
+arr.splice(2, 0, 'd'); // index 2 ('c')의 위치에 요소를 추가
+```
+
+**배열 요소 삭제**
+```
+var arr = ['a', 'b', 'c', 'e', 'f'];
+
+// arr = ['a', 'b', 'c', 'e']
+arr.pop(); // 배열의 마지막 요소를 제거
+```
+
+```
+var arr = ['a', 'b', 'c', 'e', 'f'];
+
+// arr = ['b', 'c', 'e', 'f']
+arr.shift(); // 배열의 첫번째 요소를 제거
+```
+
+```
+// arr = ['a', 'b', 'e', 'f']
+arr.splice(2, 1); // index 2 부터 1개의 요소('c')를 제거
+```
