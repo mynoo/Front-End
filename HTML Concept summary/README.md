@@ -18,3 +18,6 @@
 이름 : <input type="text" name="st_name" required><br>
 ```
 <img width="20%" src="https://user-images.githubusercontent.com/83212040/125708546-2a470d3a-5e6f-4611-9295-b2fde657035c.png"/>
+
+## <p> 태그
+하나의 문단만을 사용하고자 할때 사용 즉, 줄바꾸기 기능
