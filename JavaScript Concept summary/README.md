@@ -72,3 +72,46 @@ arr.shift(); // 배열의 첫번째 요소를 제거
 // arr = ['a', 'b', 'e', 'f']
 arr.splice(2, 1); // index 2 부터 1개의 요소('c')를 제거
 ```
+
+<div align="center" id="top">
+  <h1>함수 모음</h1>
+</div>
+:::Window객체:::
+
+- window.defaultStatus▶ 상태 표시줄에 표시할 문자열의 초기 값 설정
+- window.frames▶ 창에 포함된 프레임을 배열 형태로 지정
+- window.opener▶ 오픈메소드를 사용해서 새 상츨 열었을 경우, 새 창을 열도록 한 문서를 가리킴
+- window.parent▶ 상위 프레임을 가리킴
+- window.self▶ 현재 작업중인창
+- window.top▶ 프레임이 설정되기 전에 상태로 돌아감
+- window.classes▶ 문서 안에 정의된 모든 스타일시트의 정보를 갖음
+- window.tags▶ 모든 태그의 정보를 나타냄
+- window.screenX▶ 창의 x좌표 반환
+- window.screenY▶ 창의 y좌표 반환
+- window.close▶ 창이 닿여 있는지 확인 후 true, false 반환
+- windwo.length▶ 창 안에 프레임 수 반환
+
+----------윈도우 메소드-----------
+
+- window.alert("메시지")▶ 경고 창
+- window.prompt("메시지", "기본문구")▶ 입력 창 띄움
+- window.confirm("메시지")▶ 확인, 취소창 띄움
+- window.status="환영합니다."▶ 상태표시줄 표시
+- window.close()▶ 창닫기
+- window.moveBy(x,y)▶ 브라우저를 상태좌표로 지정한 픽셀만큼 이동
+- window.moveTo(x,y)▶ 브라우저를 절대좌표로 지정한 픽셀만큼 이동
+- window.resizeBy(x,y)▶ 브라우저의 크기를 상대적으로 지정한 픽셀만큼 설정
+- window.resizeTo(x,y)▶ 브라우저의 크기를 절대 값으로 지정한 픽셀만큼 설정
+- window.scroll(x,y)▶ 창이나 프레임 안의 내용을 스크롤함
+- window.scrollBy(x,y)▶ 스크롤을 상대좌표로 이동
+- window.scrollTo(x,y)▶ 스크롤을 절대좌표로 이동
+- window.setTimeout("명령문",시간간격)▶ 일정한 시간 간격으로 명령문을 반복 실행(1/1000초 단위)
+- window.clearTimout()▶ SetTimeout()으로 동작되는 타이머 해제
+- window.print()▶ 현재 문서 출력
+- window.back()▶ 한단계 이전 URL로 이동
+- window.forward()▶ 한단계 이후 URL로 이동
+- window.home()▶ 브라우저에서 home으로 지정된 URL로 이동
+- window.stop()▶ 불러오기 중지
+- window.find("문자열")▶ 지정된 문자열이 있는지 검사(true, false 값)
+- window.open("경로","창이름","속성")▶ 새 창을 연다.
+
