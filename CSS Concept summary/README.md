@@ -32,3 +32,43 @@ p {
 - inline과 block의 특성을 합쳐놓은 속성이다. 
 - 기본적으로는 inline의 속성을 지니고 있지만, 임의로 크기를 바꿔줄 수 있다.
 <img width="40%" src="https://user-images.githubusercontent.com/83212040/125605033-73d898ec-da43-430a-a8e4-d7a78526e8d6.png"/>
+
+
+
+## font
+
+color : #999;
+
+font-family : dotum, tahoma ;     /* 폰트이름 */
+
+font-weight : bold     /* normal, lighter, border */
+
+font-style : normal ;     /* italic, oblique */
+
+font-size : 12px ;     /* 1.5em, 14pt, 95% */
+
+text-variant : small-caps ;     /* 알파벳 소문자를 작은 대문자로 표시 */
+
+text-transform : uppercase ;     /* uppercase(알파벳대문자), capitalize(알파벳 첫글자 대문자), lowercase(알파벳 소문자) */
+
+text-decoration : none ;    /* line-through, overline, underline */
+
+text-align : center ;     /* left, right, justify */
+
+text-indent : 999px ;     /* 들여쓰기 */
+
+white-space : nowrap ;     /* 자동 줄바꿈 막기 */
+
+word-break : break-all ;     /* break-all (문자 단위 끊기), keep-all(단어 단위 끊기) */
+
+word-spacing : 3px ;     /* 단어 간격 조절 */
+
+letter-spacing : -1px ;     /* 자간 조정 */
+
+line-height : 150% ;      /* 줄간격 */
+
+line-mode : disabled ;     /* 영문만 입력 */
+
+
+
+
