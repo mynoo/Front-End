@@ -115,3 +115,12 @@ arr.splice(2, 1); // index 2 부터 1개의 요소('c')를 제거
 - window.find("문자열")▶ 지정된 문자열이 있는지 검사(true, false 값)
 - window.open("경로","창이름","속성")▶ 새 창을 연다.
 
+
+## 페이지 로드시 자동 sysdate 보여주기
+```
+window.onload = function() 
+{
+  document.getElementsByName('rcv_d')[0].value = new Date().toISOString().substring(0, 10);
+}
+```
+ex) 2021-08-13
